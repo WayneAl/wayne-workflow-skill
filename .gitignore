@@ -1,0 +1,5 @@
+.DS_Store
+gardener/logs/
+gardener/.last-scan
+gardener/inbox
+__pycache__/
