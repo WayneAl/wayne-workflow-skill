@@ -82,8 +82,9 @@ wayne-workflow-skill/
 The skill is self-contained. It was originally written as a delta on top of the
 `superpowers` plugin; since 2026-09-03 it carries the whole lifecycle itself (triage →
 design → plan → execute → debug → test → verify → finish) with the parts of superpowers
-that earned their keep folded in and rewritten as reasons rather than iron laws. The
-`docs/superpowers/` directory name in repos is kept for continuity.
+that earned their keep folded in and rewritten as reasons rather than iron laws. New repos
+keep specs, plans, and logs under `docs/workflow/`; repos that already have
+`docs/superpowers/` keep that directory rather than being migrated.
 
 ## Layered split of responsibilities
 

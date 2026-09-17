@@ -42,21 +42,22 @@ green. If the change crosses an external system, the golden-sample live run
 - Delete the plan's `.claude/sdd/<plan>/` workspace once the final review is clean; git
   history and the completion log are the durable record.
 
-## 4. Completion ritual (repos using `docs/superpowers/`)
+## 4. Completion ritual (repos using `docs/workflow/`)
 
-1. **Dated log** at `docs/superpowers/log/YYYY-MM-DD-<plan-or-task>.md`: what landed
+1. **Dated log** at `docs/workflow/log/YYYY-MM-DD-<plan-or-task>.md`: what landed
    (modules, entries, struct shapes, key constants — enough to understand the
    implementation without re-reading the plan); language/SDK/tool lessons that forced
    plan amendments; backlog carried forward (deferred items, follow-ups from final
    review).
-2. **`docs/superpowers/STATUS.md`:** mark the plan ✅ COMPLETE with its log path; state
+2. **`docs/workflow/STATUS.md`:** mark the plan ✅ COMPLETE with its log path; state
    what's next (scope, open decisions, blockers); keep the "Resumption recipe" current so
    `/clear` + reload works — on `/clear`, STATUS.md + `git log` are the trusted state.
 
 Commit both together (e.g. `docs(log): plan N completion log + STATUS update`) so the
 merge is the last thing the user sees, not trailing housekeeping.
 
-New repos won't have `docs/superpowers/` yet. If the user is running plans there, create `specs/`,
+New repos won't have `docs/workflow/` yet. If the repo has `docs/superpowers/`, that is its
+directory — keep using it. Otherwise, if the user is running plans there, create `specs/`,
 `plans/`, `log/`, and `STATUS.md` the first time; if a repo clearly doesn't use this flow,
 offer it rather than imposing it.
 

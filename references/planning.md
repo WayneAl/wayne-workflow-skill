@@ -5,7 +5,7 @@ skilled engineer but knows nothing about this codebase, its toolset, or the desi
 conversation. It argues from the approved spec. The user does not read it — say so when you
 hand it over, and offer the already-approved decision list if they want a summary.
 
-Save to `docs/superpowers/plans/YYYY-MM-DD-<feature>.md` and commit. If the spec covers
+Save to `docs/workflow/plans/YYYY-MM-DD-<feature>.md` and commit. If the spec covers
 independent subsystems that weren't split during design, split into one plan each — every
 plan must produce working, testable software on its own.
 
@@ -16,7 +16,7 @@ plan must produce working, testable software on its own.
 
 **Goal:** one sentence.
 **Architecture:** 2–3 sentences.
-**Spec:** docs/superpowers/specs/<file>.md — executors read both.
+**Spec:** docs/workflow/specs/<file>.md — executors read both.
 **Stack:** the languages/tools/versions in play.
 
 ## Global constraints

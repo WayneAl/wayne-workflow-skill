@@ -29,7 +29,8 @@ spec → plan → execution cycle.
 
 ## Design conversation, not an interview
 
-- Explore the codebase first (files, docs, recent commits, `docs/superpowers/STATUS.md`).
+- Explore the codebase first (files, docs, recent commits, `docs/workflow/STATUS.md` —
+  or `docs/superpowers/STATUS.md` in older repos, which keep that directory).
   Native plan mode is fine for this read-only exploration, but the approval surface is the
   chat skeleton below, not a plan file.
 - Open with a **design skeleton for the user to shoot at**: the data structures, interface
@@ -49,7 +50,7 @@ spec → plan → execution cycle.
 ## Two-tier artifacts
 
 **Tier 1 — for the user (the approval surface).** A short design doc, hard cap ~60 lines,
-saved to `docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md` and committed. Sections:
+saved to `docs/workflow/specs/YYYY-MM-DD-<topic>-design.md` and committed. Sections:
 
 ```
 # <Topic> — design

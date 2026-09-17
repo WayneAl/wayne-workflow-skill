@@ -64,6 +64,11 @@ user override it:
 | Finish | integration menu, completion log, STATUS | `references/finishing.md` |
 | Bulk data | migrations, scrapes, merges, cleanups over many rows | `references/bulk-data.md` |
 
+Specs, plans, completion logs, and `STATUS.md` live under `docs/workflow/`. A repo that
+already has `docs/superpowers/` (the pre-2026-09 name) keeps using that directory — the
+references' `docs/workflow/` paths mean it there; never start a parallel `docs/workflow/`
+beside it.
+
 ## Three hard gates
 
 1. **No plan or code for architectural work until the user has approved the design skeleton** —
